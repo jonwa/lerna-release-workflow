@@ -1,0 +1,22 @@
+{
+  "name": "@jonwa/package-b",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jonwa/lerna-release-workflow.git",
+    "directory": "packages/package-b"
+  },
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "svgr -d src/components/Icons src/icons",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@jonwa/package-a": "^0.0.0"
+  },
+  "devDependencies": {
+    "@svgr/cli": "4.3.3"
+  }
+}
