@@ -1,6 +1,6 @@
 {
   "name": "@jonwa/package-b",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@jonwa/package-a": "^0.0.0"
+    "@jonwa/package-a": "^0.1.0"
   },
   "devDependencies": {
     "@svgr/cli": "4.3.3"
