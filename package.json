@@ -1,0 +1,28 @@
+{
+  "name": "lerna-release-workflow",
+  "private": true,
+  "author": "Jon Wahlström <ejfwahlstrom@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonwa/lerna-release-workflow.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "commit": "git-cz",
+    "bootstrap": "npx lerna bootstrap",
+    "publish:ci": "lerna publish from-package --yes",
+    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'"
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "lerna": "^3.20.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
