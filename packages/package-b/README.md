@@ -1,11 +1,21 @@
-# `package-b`
+# @jonwa/package-b
 
-> TODO: description
+## Install
+
+Using npm:
+
+```
+npm install @jonwa/package-b
+```
+
+or using yarn:
+
+```
+yarn add @jonwa/package-b
+```
 
 ## Usage
 
 ```
-const packageB = require('package-b');
-
-// TODO: DEMONSTRATE API
+const packageB = require('@jonwa/package-b');
 ```
