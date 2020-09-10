@@ -12,7 +12,7 @@ Let's start by setting up the new repository:
 
 1. Update the root `package.json` with your repository name and url.
 
-2. Rename `packages/package-a` and `packages/package-b` to suit your needs and don't forget to update their `package.json`.
+2. Modify the sample packages as needed and remember to update their `package.json`.
 
    > **NOTE:** For a package to be releasable to GitHub Package Registry, it must be scoped to match the owner of the repository. The package name is optional, as long as it is unique under that scope. In addition, the `repository.url` field needs to be consistent in all package.json files.
 
@@ -21,7 +21,3 @@ Let's start by setting up the new repository:
 ## How it works
 
 Each push to `master` branch will generate a version number, git tag, Conventional Changelog, release commit, pushing changes to the origin and publish your packages to GitHub Package Registry.
-
-# License
-
-The scripts and documentation in this project are released under the [MIT License](LICENSE)
