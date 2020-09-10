@@ -20,4 +20,4 @@ Let's start by setting up the new repository:
 
 ## How it works
 
-Each push to `master` branch will generate a version number, git tag, Conventional Changelog, release commit, pushing changes to the origin and publish your packages to GitHub Package Registry.
+Each push to `master` branch will generate a version number, git tag, Conventional Changelog, release commit, pushing changes to the origin and publish to GitHub Package Registry.
