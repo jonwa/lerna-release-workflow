@@ -10,13 +10,10 @@
   },
   "scripts": {
     "prepublish": "yarn build",
-    "build": "svgr -d src/components/Icons src/icons",
+    "build": "echo \"Build me!\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@jonwa/package-a": "^0.1.0"
-  },
-  "devDependencies": {
-    "@svgr/cli": "4.3.3"
   }
 }
