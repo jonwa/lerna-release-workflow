@@ -4,7 +4,7 @@ A basic [Lerna](https://lerna.js.org/) monorepo with [Yarn Workspaces](https://c
 
 ## Create a new repository from this template
 
-Click the `Use this Template` button and provide the new repository details.
+Click the `Use this template` button and provide the new repository details.
 
 ## Getting Started
 
