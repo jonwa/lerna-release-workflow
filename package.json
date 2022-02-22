@@ -16,7 +16,7 @@
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'"
   },
   "devDependencies": {
-    "commitizen": "^4.2.3",
+    "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.1.0",
     "lerna": "^4.0.0"
   },
