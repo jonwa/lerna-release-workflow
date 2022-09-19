@@ -21,3 +21,28 @@ Let's start by setting up the new repository:
 ## How it works
 
 Each push to `master` branch will generate a version number, git tag, Conventional Changelog, release commit, pushing changes to the origin and publish to GitHub Package Registry.
+
+## Protected branches
+
+If you're using the protected branches feature, you'll need a Personal Access Token because the `GITHUB_TOKEN` generate by the CI won't have enough permission (that's by design). You can generate one in your [account settings](https://github.com/settings/tokens) and set it in the repository secrets.
+
+You'll also need to modify your action to:
+
+- Use `persist-credentials: false` when checking out the branch;
+- Set the repository remote to https format with the newly generated token.
+
+
+```yml
+# ...
+            - uses: actions/checkout@v3
+              with:
+                  persist-credentials: false
+                  fetch-depth: 0
+# ...
+          - name: Config git user
+              run: |
+                  git config --global user.name "${{ github.actor }}"
+                  git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+                  git remote set-url origin https://${{ github.actor }}:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}
+# ...
+```
