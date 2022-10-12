@@ -5,7 +5,9 @@
   "version": "independent",
   "command": {
     "publish": {
-      "registry": "https://npm.pkg.github.com/"
+      "registry": "https://npm.pkg.github.com/",
+      "conventionalCommits": true,
+      "message": "chore(release): publish"
     },
     "version": {
       "allowBranch": "master",
