@@ -1,7 +1,7 @@
 {
   "name": "lerna-release-workflow",
   "private": true,
-  "author": "Jon Wahlström <ejfwahlstrom@gmail.com>",
+  "author": "Luís Souza <luisfmsouza@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/jonwa/lerna-release-workflow.git"
