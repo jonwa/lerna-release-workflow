@@ -1,8 +1,7 @@
-'use strict';
+"use strict";
 
-module.exports = packageA;
+module.exports = mainPackage;
 
-function packageA() {
-    console.log("Package A");
-    // TODO
+function mainPackage() {
+  console.log("Main Package");
 }

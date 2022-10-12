@@ -17,5 +17,5 @@ yarn add @luisfmsouza/package-a
 ## Usage
 
 ```
-const packageA = require('@luisfmsouza/package-a');
+const mainPackage = require('@luisfmsouza/package-a');
 ```
