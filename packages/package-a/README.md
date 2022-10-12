@@ -1,21 +1,21 @@
-# @jonwa/package-a
+# @luisfmsouza/package-a
 
 ## Install
 
 Using npm:
 
 ```
-npm install @jonwa/package-a
+npm install @luisfmsouza/package-a
 ```
 
 or using yarn:
 
 ```
-yarn add @jonwa/package-a
+yarn add @luisfmsouza/package-a
 ```
 
 ## Usage
 
 ```
-const packageA = require('@jonwa/package-a');
+const packageA = require('@luisfmsouza/package-a');
 ```

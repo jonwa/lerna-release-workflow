@@ -4,11 +4,9 @@
   "author": "Luís Souza <luisfmsouza@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonwa/lerna-release-workflow.git"
+    "url": "https://github.com/luisfmsouza/lerna-release-workflow.git"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "scripts": {
     "commit": "git-cz",
     "bootstrap": "npx lerna bootstrap",
