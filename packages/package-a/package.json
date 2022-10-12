@@ -1,11 +1,11 @@
 {
-  "name": "@jonwa/package-a",
+  "name": "@luisfmsouza/package-a",
   "version": "0.2.0",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jonwa/lerna-release-workflow.git",
+    "url": "git@github.com:luisfmsouza/lerna-release-workflow.git",
     "directory": "packages/package-a"
   },
   "scripts": {
