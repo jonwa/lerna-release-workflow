@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/luisfmsouza/lerna-release-workflow/compare/@luisfmsouza/package-a@0.6.0...@luisfmsouza/package-a@0.7.0) (2022-10-12)
+
+
+### Features
+
+* add another feature ([66382ad](https://github.com/luisfmsouza/lerna-release-workflow/commit/66382ad401b8dbead183b02d2096e81b23359534))
+
+
+
+
+
 # [0.6.0](https://github.com/luisfmsouza/lerna-release-workflow/compare/@luisfmsouza/package-a@0.5.1...@luisfmsouza/package-a@0.6.0) (2022-10-12)
 
 

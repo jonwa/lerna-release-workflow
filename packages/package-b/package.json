@@ -1,6 +1,6 @@
 {
   "name": "@luisfmsouza/package-b",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -14,6 +14,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@luisfmsouza/package-a": "^0.6.0"
+    "@luisfmsouza/package-a": "^0.7.0"
   }
 }
