@@ -4,5 +4,5 @@ module.exports = mainPackage;
 
 function mainPackage() {
   console.log("Main Package");
-  console.log("New function");
+  console.log("remove function");
 }
