@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/luisfmsouza/lerna-release-workflow/compare/@luisfmsouza/package-a@0.4.0...@luisfmsouza/package-a@0.5.0) (2022-10-12)
+
+
+### Features
+
+* **package-a:** add new function to package a ([#5](https://github.com/luisfmsouza/lerna-release-workflow/issues/5)) ([431268f](https://github.com/luisfmsouza/lerna-release-workflow/commit/431268f87e2988c644bbe11bc369dfe77ce6ae4d))
+
+
+
+
+
 # [0.4.0](https://github.com/luisfmsouza/lerna-release-workflow/compare/@luisfmsouza/package-a@0.3.0...@luisfmsouza/package-a@0.4.0) (2022-10-12)
 
 
